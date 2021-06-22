@@ -15,4 +15,6 @@ virtualenv g
 pip install gevent requests
 ```
 
-Usefull [**tutorial**](http://sdiehl.github.io/gevent-tutorial/)
+Usefull [**tutorial**](http://sdiehl.github.io/gevent-tutorial/) in general.
+
+Another usefull [**tutorial**](https://greenlet.readthedocs.io/en/latest/) about greenlets!
