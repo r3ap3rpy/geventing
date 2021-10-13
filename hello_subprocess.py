@@ -1,10 +1,11 @@
-from gevent import monkey; monkey.patch_all()
+from gevent import monkey
+monkey.patch_all()
 import gevent
 import subprocess
 
 commands = [
     "systeminfo",
-    "ipconfig",
+    "ipconfig /all"
 ]
 
 def asyncommands(command):

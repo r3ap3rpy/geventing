@@ -1,8 +1,9 @@
 from gevent import Greenlet
 from gevent import sleep
+
 g = Greenlet(sleep, 5)
-print("Starting sleep!")
+print(f"Starting sleep!")
 g.start()
-print("Killing immediately!")
+print(f"Killing immediately!")
 g.kill(Exception("You shall not live!"))
-print(g.dead)
+print(f"is dead: {g.dead}")
